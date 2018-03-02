@@ -1,0 +1,86 @@
+.money{
+  display: block;
+  font-size: 24px;
+  margin: 48px 0 24px 36px;
+  em{
+    font-style: normal;
+    color: #D9534F;
+  }
+}
+.table-defined{
+  font-size: 20px;
+  thead{
+    tr{
+      width: 1280px;
+      background-color: #ECEEEF;
+      height: 66px;
+      th{
+        vertical-align: middle !important;
+      }
+    }
+  }
+  tbody{
+    tr{
+      border-bottom: 1px solid #DDDDDD;
+      height: 60px;
+      td{
+        vertical-align:bottom !important;
+      }
+      td:nth-child(9){
+        color: #D9534F;
+      }
+    }
+  }
+}
+.code{
+  width: 348px;
+  height: 150px;
+  margin: 34px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  .img{
+
+    width: 150px;
+    height: 150px;
+    background-color: lightpink;
+    &:first-child{
+      margin-right: 48px;
+    }
+  }
+  .none{
+    display: none;
+  }
+  .pay{
+    display: none;
+    font-size: 48px;
+    color: #D9534F;
+  }
+  .show{
+    display: block;
+  }
+}
+.payButton{
+  width: 552px;
+  height: 80px;
+  margin:36px auto;
+  button{
+    width: 240px;
+    height:80px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 36px;
+    color: #1C7CD5;
+    border: 1px solid #1C7CD5;
+    border-radius: 4px;
+    cursor: pointer;
+    &:first-child{
+      margin-right: 72px;
+    }
+    &:active {
+      background-color: #8DBDEA;
+      color: #fff;
+    }
+  }
+}

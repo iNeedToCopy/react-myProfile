@@ -1,0 +1,241 @@
+.floatL{
+  float: left;
+}
+.floatR{
+  float: right;
+}
+body{
+  padding:0;
+  margin:0;
+  .depositContainer{
+    width:1280px;
+    margin: 0 auto;
+    .rightContent{
+      width:1147px;
+      .deposit-top{
+        width:1086px;
+        height:49px;
+        background-color: #DDDDDD;
+        border-radius: 3px;
+        margin:24px 24px;
+        .deposit-top-title{
+          height:49px;
+          line-height:49px;
+          .titleFont{
+            margin:0 18px;
+            font-size: 16px;
+            font-family: "Helvetica Neue", sans-serif;
+            color:#1C7CD5;
+            cursor: pointer;
+          }
+        }
+      }
+      .depositContent{
+        width: 1118px;
+        margin-left:26px;
+        .depositContent-left{
+          width:664px;
+          display:inline-block;
+          .depositLeftTitle{
+            width: 100%;
+            margin: 34px auto;
+            text-align: center;
+            .titleFont{
+              font-size: 20px;
+              font-family: "Helvetica Neue", sans-serif;
+            }
+          }
+          .form-title{
+            width:602px;
+            height:25px;
+            line-height:25px;
+            .form-title-font{
+              .formName{
+                font-family: "Helvetica Neue", sans-serif;
+                font-size: 18px;
+                display: inline-block;
+                width: 72px;
+              }
+              .formInput{
+                margin-left: 9px;
+                width:300px;
+                font-family: "Helvetica Neue", sans-serif;
+                font-size: 18px;
+                display: inline-block;
+                border:none;
+                border-bottom: 1px solid #DDDDDD;
+              }
+            }
+          }
+          .form-center{
+            width:654px;
+            height:220px;
+            margin-top:44px;
+            .formRow{
+              width:205px;
+              height:20px;
+              line-height: 20px;
+              display: inline-block;
+              .formNameF{
+                font-family: "Helvetica Neue", sans-serif;
+                font-size: 14px;
+                display: inline-block;
+                width: 56px;
+              }
+              .formInputE{
+                margin-left: 9px;
+                width:134px;
+                font-family: "Helvetica Neue", sans-serif;
+                font-size: 10px;
+                display: inline-block;
+                border:none;
+                border-bottom: 1px solid #DDDDDD;
+              }
+              .inputDiv{
+                position:relative;
+                width:134px;
+                height:20px;
+                display:inline-block;
+                .formInputS{
+                  position:absolute;
+                  top:0;
+                  left:0;
+                  margin-left: 9px;
+                  width:134px;
+                  font-family: "Helvetica Neue", sans-serif;
+                  font-size: 10px;
+                  display: inline-block;
+                  border:none;
+                  border-bottom: 1px solid #DDDDDD;
+                }
+                .unit{
+                  position:absolute;
+                  top:0;
+                  right:0;
+                  font-size:10px;
+                  font-family: "Helvetica Neue", sans-serif;
+                  color:#818A91;
+                }
+              }
+              .inputImg{
+                position:absolute;
+                width:144px;
+                height:20px;
+                display:inline-block;
+                .formInputI{
+                  position:absolute;
+                  top:0;
+                  left:0;
+                  margin-left: 9px;
+                  width:134px;
+                  font-family: "Helvetica Neue", sans-serif;
+                  font-size: 10px;
+                  display: inline-block;
+                  border:none;
+                  border-bottom: 1px solid #DDDDDD;
+                }
+                .imgSty{
+                  position:absolute;
+                  top:15px;
+                  right:0;
+                }
+              }
+            }
+          }
+          .form-bottom{
+            width:664px;
+            height:240px;
+            margin-top:160px;
+            .formBottomRow{
+              width:205px;
+              height:20px;
+              line-height: 20px;
+              display: inline-block;
+              .formNameB{
+                font-family: "Helvetica Neue", sans-serif;
+                font-size: 14px;
+                display: inline-block;
+                width: 56px;
+              }
+              .inputBottomImg{
+                position:absolute;
+                width:144px;
+                height:20px;
+                display:inline-block;
+                .formInputB{
+                  position:absolute;
+                  top:0;
+                  left:0;
+                  margin-left: 9px;
+                  width:134px;
+                  font-family: "Helvetica Neue", sans-serif;
+                  font-size: 10px;
+                  display: inline-block;
+                  border:none;
+                  border-bottom: 1px solid #DDDDDD;
+                }
+                .imgSty{
+                  position:absolute;
+                  top:15px;
+                  right:0;
+                }
+              }
+              .formInputBS{
+                margin-left: 9px;
+                width:134px;
+                font-family: "Helvetica Neue", sans-serif;
+                font-size: 10px;
+                display: inline-block;
+                border:none;
+                border-bottom: 1px solid #DDDDDD;
+              }
+            }
+          }
+        }
+        .depositContent-right{
+          width:400px;
+          display:inline-block;
+          margin-right:24px;
+          .search-title{
+            width:400px;
+            height:51px;
+            line-height:51px;
+            background-color:#ECEEEF;
+            .findFont{
+              margin-left:21px;
+              font-size:17px;
+              font-family:"Helvetica Neue",sans-serif;
+            }
+          }
+          .search-name{
+            height:50px;
+            margin-left:16px;
+            margin-top:21px;
+          }
+          .search-input{
+            margin-top:21px;
+            .searchInput{
+              margin-left:16px;
+              width:358px;
+              font-family: "Helvetica Neue", sans-serif;
+              font-size: 10px;
+              display: inline-block;
+              border:none;
+              border-bottom: 1px solid #DDDDDD;
+            }
+          }
+          .search-table{
+           margin-top:20px;
+            width:400px;
+            overflow-y:scroll;
+            height:500px;
+        }
+        }
+      }
+      .depositBottom{
+        width:1086px;
+        margin:24px 24px;
+      }
+    }
+  }
+}

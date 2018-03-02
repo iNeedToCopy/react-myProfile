@@ -1,0 +1,156 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+.container-page{
+  width:1280px;
+  margin: 0 auto;
+}
+.companyName{
+  width:1280px;
+  height: 60px;
+}
+.sideBar{
+ // margin: 28px 0 0 24px;
+  width:133px;
+  height: 600px;
+  float: left;
+ // border-right: 1px solid black;
+}
+@mixin FontFloat{
+  font: 18px Helvetica Neue;
+  float: left;
+}
+@mixin borderUnStyle{
+  border: 0.3px solid #DDDDDD;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+}
+.main-container{
+  margin: 24px 0 0 13px;
+  float: left;
+  width: 1086px;
+  .mainTitle{
+    width: 1086px;
+    height: 49px;
+    background-color: #DDD;
+    border-radius: 3px;
+    border:1px solid #E7CECD;
+    float: left;
+    padding:0 16px 0 20px;
+    box-sizing: border-box;
+    .title-p{
+      font: 16px Helvetica Neue;
+      color: #1C7CD5;
+      float: left;
+      margin: 14px 0 0 0;
+    }
+    .title-xie{
+      color: #777777;
+      font: 16px Helvetica Neue;
+      float: left;
+      margin: 15px 18px 0 16px;
+    }
+    .title-bar{
+      float: right;
+      font: 16px Helvetica Neue;
+      color: #1C7CD5;
+      margin: 14px 0 0 0;
+      .title-bar-item{
+        float: left;
+        margin-left: 20px;
+      }
+    }
+  }
+  .ReleaseCar{
+    height:80px;
+    width: 664px;
+    .main-h5{
+      margin-top: 83px;
+      text-align: center;
+      font:20px Helvetica Neue;
+      font-weight: bold;
+    }
+  }
+  .searchCar{
+    width: 664px;
+    height: 154px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding:28px 0 36px 2px;
+    .carOne{
+      p{
+        float: left;
+        width: 66px;
+        font-size: 18px;
+        margin-bottom: 0;
+      }
+      input{
+        margin-left: 22.5px;
+        width: 240px;
+        font-size: 16px;
+        @include borderUnStyle;
+      }
+    }
+    .carTwo{
+      margin-top: 40px;
+      p{
+        float: left;
+        font-size: 18px;
+      }
+      .p1{
+        width:86px;
+      }
+    }
+  }
+  .rightB{
+    width:400px;
+    height: 830px;
+    float: right;
+    margin: 35px 0 0 0;
+    .right-bar-one{
+      height: 125px;
+      width: 400px;
+      .right-bar-one-title{
+        display: block;
+        width: 400px;
+        margin-bottom: 0;
+        height: 50px;
+        padding: 13px 0 0 21px;
+        background-color: #ECEEEF;
+        font:17px Helvetica Neue;
+        color: #000;
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+      }
+      .right-bar-one-content{
+        height: 75px;
+        border: 0.3px solid rgb(221,221,221);
+        padding: 25px 0 0 21.5px;
+        display: flex;
+        flex-wrap: wrap;
+        input{
+          @include borderUnStyle;
+          width: 320px;
+          height: 18px;
+          font:10px Helvetica Neue;
+          margin: 10px 0 0 3.5px;
+        }
+      }
+    }
+    .right-bar-two{
+      height: 705px;
+      .table{
+        border: 0.3px solid #DDDDDD;
+        .table-h{
+          height: 40px;
+          font-size: 14px;
+        }
+        .bgC{
+          background-color: #ECEEEF;
+        }
+      }
+    }
+  }
+}

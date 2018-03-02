@@ -1,0 +1,94 @@
+.floatL{
+  float: left;
+}
+.floatR{
+  float: right;
+}
+body{
+  padding:0;
+  margin: 0;
+  .MainContainer{
+    width:1280px;
+    margin: 0 auto;
+    .mainBill{
+      width:1163px;
+      .mainBillContent{
+        width: 1086px;
+        margin: 30px auto;
+        .billTitle{
+          width: 100%;
+          text-align: center;
+          font-family: "Helvetica Neue", sans-serif;
+          font-size: 20px;
+          font-weight: bold;
+        }
+        .billContent{
+          width: 100%;
+          margin-top: 34px;
+          .Owner-box{
+            border:1px solid #1C7CD5;
+            width:100%;
+            border-radius:5px;
+            position:relative;
+            z-index:1;
+            .owner-title{
+              width:80px;
+              height:24px;
+              border:1px solid #1C7CD5;
+              line-height:24px;
+              text-align:center;
+              position:absolute;
+              top:-10px;
+              left:32px;
+              z-index:10;
+              color:#1C7CD5;
+              background-color: #fff;
+            }
+            .owner-input{
+              height:20px;
+              line-height:20px;
+              position:absolute;
+              .ownerName{
+                font-size:14px;
+                font-family: "Helvetica Neue", sans-serif;
+                width:60px;
+                height:20px;
+                line-height:20px;
+                display:inline-block;
+              }
+              .ownerInput{
+                height:20px;
+                border:none;
+                border-bottom:1px solid #DDDDDD;
+                display:inline-block;
+              }
+              .unit{
+                display: inline-block;
+                color:#818A91;
+                font-size:10px;
+                right:5px;
+                position:absolute;
+              }
+            }
+          }
+          .button-box{
+            width:100%;
+            height:40px;
+            margin-top:63px;
+            text-align: center;
+            .button-font{
+              color:#fff;
+              background-color: #1C7CD5;
+              border:none;
+              border-radius:20px;
+              width:160px;
+              height:40px;
+              font-size:16px;
+              font-family: "Helvetica Neue", sans-serif;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,249 @@
+*{
+  padding:0;
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+}
+@mixin frame{
+  width: 1086px;
+  border: 1px solid  #1C7CD5;
+  border-radius: 4px;
+  position: relative;
+}
+@mixin smallTitle{
+  text-align: center;
+  color: #1C7CD5;
+  position: absolute;
+  top: -12px;
+  left: 32px;
+  width: 80px;
+  height: 24px;
+  background-color: #fff;
+  border: 1px solid #1C7CD5;
+}
+@mixin borderUnStyle{
+  border: 0.3px solid #DDDDDD;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+}
+.containerPick{
+  width:1280px;
+  margin: 0 auto;
+  .mainPick{
+    width: 1092.5px;
+    float: left;
+    margin-left: 22.5px;
+    .title{
+      display: flex;
+      width: 1086px;
+      height: 49px;
+      background-color: #DDDDDD;
+      border: 1px solid #E7CECD;
+      border-radius: 3px;
+      margin-top: 24px;
+      vertical-align: middle;
+      align-items: center;
+      span{
+        cursor: pointer;
+        font-size: 16px;
+        color: #1C7CD5;
+        &:first-child{
+          margin-left: 20px;
+        }
+        &:nth-child(2){
+          margin-left: 16px;
+          color:#777777;
+        }
+        &:last-child{
+          margin-left: 18px;
+        }
+      }
+    }
+    .mainContent{
+      width: 1092.5px;
+      height: 841px;
+      margin-top: 30px;
+      .newC{
+        width: 1092.5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        .newBill{
+          margin: 0 auto;
+          font-size: 20px;
+          font-weight:bold;
+          color: #000;
+          height: 27px;
+        }
+        .daoRu{
+          cursor: pointer;
+          position: absolute;
+          top: 5px;
+          left: 990px;
+          font-size: 14px;
+          color: #1C7CD5;
+        }
+      }
+      .shipper{
+        margin-top: 46px;
+        height: 68px;
+        @include frame;
+        .sTitle{
+          @include smallTitle;
+        }
+        .name{
+          margin: 31px 0 0 8px;
+          font-size: 14px;
+          float: left;
+        }
+        input{
+          margin: 28px 0 0 36.5px;
+          float: left;
+          @include borderUnStyle;
+          width: 430px;
+          font-size: 10px;
+        }
+      }
+      .message{
+        position: relative;
+        margin-top: 52.4px;
+        height: 168px;
+        @include frame;
+        padding: 11px 0 0 8px;
+        align-items: flex-start;
+        .sTitle{
+          @include smallTitle;
+        }
+        .text{
+          width: 280px;
+          @include borderUnStyle;
+          font-size: 10px;
+          height: 20px;
+          margin-top: 19px;
+        }
+        .word{
+          height: 19px;
+          font-size: 14px;
+          margin-top: 21px;
+        }
+        .word-green{
+          font-size: 12px;
+          color: #1C7CD5;
+          width: 335px;
+          display: inline-block;
+        }
+        .inputL{
+          margin-left: 33px;
+        }
+        .LeftWord{
+          height: 19px;
+          font-size: 12px;
+          margin-top: 21px;
+          color: #1C7CD5;
+          z-index: 99;
+        }
+        .Left{
+          margin-left: -95px;
+          z-index: 1;
+        }
+        .smallL{
+          margin-left: 5px;
+        }
+        .marLeft{
+          margin-left: 26.5px;
+        }
+        .dun{
+          position:absolute;
+          top: 110px;
+          left:690px;
+        }
+        .jian{
+          position: absolute;
+          top: 110px;
+          left: 1060px;
+        }
+        .cf{
+          color: #818A91;
+          font-size: 10px;
+        }
+      }
+      .miss{
+        display: none;
+      }
+      .OutMessage{
+        margin-top: 53px;
+        @include frame;
+        padding: 3px 0 0 8px;
+        .sTitle{
+          @include smallTitle;
+        }
+        .pickUp{
+          margin-bottom: 25px;
+        }
+        .TransferAcc{
+          margin-bottom: 25px;
+        }
+        .type{
+          position: relative;
+          margin-top: 25px;
+        }
+        span{
+
+        }
+        input[type=radio]{
+          width: 15px;
+          height: 15px;
+          margin: 0 6px 0 8px;
+          padding-top: 5px;
+          vertical-align:middle;
+          margin-top:-2px;
+          margin-bottom:1px;
+        }
+        input[type=text]{
+          @include borderUnStyle;
+          width: 278px;
+          margin-left: 8px;
+        }
+        .duKa{
+          position: absolute;
+          left: 310px;
+          top: 6px;
+          font-size: 10px;
+          color: #1C7CD5;
+        }
+        .marR{
+          margin-right: 24px;
+        }
+        .marRt{
+          margin-right: 18px;
+        }
+      }
+      .remark{
+        @include frame;
+        height: 74px;
+        margin-top: 94px;
+        padding: 32px 0 0 8px;
+        .sTitle{
+          @include smallTitle;
+        }
+        input{
+          width: 992px;
+          margin-left: 35px;
+          @include borderUnStyle;
+        }
+      }
+      button{
+        display: block;
+        margin: 55px auto;
+        width: 160px;
+        height: 40px;
+        background-color: #1C7CD5;
+        border: 1px solid #1C7CD5;
+        border-radius: 100px;
+        color: #fff;
+        font-size: 16px;
+      }
+    }
+  }
+}

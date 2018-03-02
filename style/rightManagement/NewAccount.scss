@@ -1,0 +1,467 @@
+.content-title{
+    width: 1086px;
+    height: 49px;
+    background-color: #DDDDDD;
+    border: 1px solid #E7CECD;
+    border-radius: 3px;
+    overflow: hidden;
+    a{
+        font-size: 16px;
+        display: inline-block;
+        color: #1C7CD5;
+        margin-left: 20px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        &:active{
+            text-decoration: none;
+        }
+        &:hover{
+            text-decoration: none;
+        }
+        &:visited{
+            text-decoration: none;
+        }
+    }
+    ul{
+        float: right;
+        list-style: none;
+        overflow: hidden;
+        margin-right: 16px;
+        >li{
+            float: left;
+            a{
+             margin-left: 20px;
+            }
+        }
+    }
+    >p{
+        font-size: 16px;
+        display: inline-block;
+        margin-left: 16px
+    }
+}
+
+.content-left{
+    margin-top: 34px;
+    float: left;
+    width: 664px;
+    height: 1000px;
+    // background-color: pink;
+    p{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    label{
+        color: #373A3C;
+        font-size: 18px;
+        margin-top: 34px;
+        font-weight: normal;
+    }
+    #shipper{
+        width: 300px;
+        margin-left: 16px;
+        border:none;
+        border-bottom: 1px solid #DDDDDD;
+        &::-webkit-input-placeholder{
+            color: #818A91;
+            font-size: 16px;
+        }
+    }
+    .input-box{
+        margin-top: 22.5px;
+        padding-left: 2px;
+        width: 670px;
+        height: 236.56px;
+        border: 1px solid #DDDDDD;
+        border-radius: 6px;
+        label:nth-of-type(1){
+            color: #373A3C;
+            font-size: 14px;
+            margin-top: 24px;
+            font-weight: normal;
+        }
+        #factor{
+            width: 140px;
+            margin-left: 9px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        
+        label:nth-of-type(2){
+            color: #373A3C;
+            font-size: 14px;
+            margin-top: 24px;
+            margin-left: 20.5px;
+            font-weight: normal;
+        }
+        #product{
+            width: 140px;
+            margin-left: 37px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        
+        label:nth-of-type(3){
+            color: #373A3C;
+            font-size: 14px;
+            margin-top: 24px;
+            margin-left: 20.5px;
+            font-weight: normal;
+        }
+        #specifications{
+            width: 46.6px;
+            margin-left: 27px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        #spe1{
+            width: 46.6px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        #spe2{
+            width: 46.6px;
+            margin-left: 2px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        
+        label:nth-of-type(4){
+            color: #373A3C;
+            font-size: 14px;
+            margin-top: 20.5px;
+            font-weight: normal;
+        }
+        #material{
+            width: 140px;
+            margin-left: 36px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        
+        label:nth-of-type(5){
+            color: #373A3C;
+            font-size: 14px;
+            margin-top: 20.5px;
+            margin-left: 20.5px;
+            font-weight: normal;
+        }
+        #acceptance{
+            width: 140px;
+            margin-left: 10px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        
+        label:nth-of-type(6){
+            color: #373A3C;
+            font-size: 14px;
+            margin-top: 20.5px;
+            margin-left: 15.5px;
+            font-weight: normal;
+        }
+        #management{
+            width: 140px;
+            margin-left: 10px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        
+        label:nth-of-type(7){
+            color: #373A3C;
+            font-size: 14px;
+            margin-top: 20.5px;
+            margin-left: 0px;
+            font-weight: normal;
+        }
+        #metering{
+            width: 140px;
+            margin-left: 10px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        
+        label:nth-of-type(8){
+            color: #373A3C;
+            font-size: 14px;
+            margin-top: 20.5px;
+            margin-left: 20.5px;
+            font-weight: normal;
+        }
+        #technology{
+            width: 140px;
+            margin-left: 37px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        
+        label:nth-of-type(9){
+            color: #373A3C;
+            font-size: 14px;
+            margin-top: 20.5px;
+            margin-left: 20.5px;
+            font-weight: normal;
+        }
+        #account{
+            width: 140px;
+            margin-left: 32px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        
+        label:nth-of-type(10){
+            color: #373A3C;
+            font-size: 14px;
+            margin-top: 20.5px;
+            margin-left: 0px;
+            font-weight: normal;
+        }
+        #controlID{
+            width: 140px;
+            margin-left: 23px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        
+        label:nth-of-type(11){
+            color: #373A3C;
+            font-size: 14px;
+            margin-top: 20.5px;
+            margin-left: 20.5px;
+            font-weight: normal;
+        }
+        #remark{
+            width: 350.5px;
+            margin-left: 37px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                text-align: center;
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+    }
+
+    .bottom{
+        height: 500px;
+        margin-top: 32.4px;
+        // background-color: pink;
+        border: 1px solid #DDDDDD;
+        .bottom-title{
+            height: 40px;
+            padding: 0;
+            background-color: #ECEEEF;
+            border: 1px solid #DDDDDD;
+            // border-radius: 6px;
+            line-height: 40px;
+            font-size: 12px;
+            font-weight: bold;
+            color: #55595C;
+            span{
+                font-size: 12px;
+                font-weight: bold;
+                color: #55595C;
+            }
+            span:nth-of-type(1){
+                padding-left: 4px;
+            }
+            span:nth-of-type(2){
+                padding-left: 33.1px;
+            }
+            span:nth-of-type(3){
+                padding-left: 37.1px;
+            }
+        }
+        .bottom-content{
+            font-size: 14px;
+            border-bottom: 1px solid #DDDDDD;
+            color:#373A3C;
+            line-height: 52px;
+            span:nth-of-type(1){
+                padding-left: 4px;
+            }
+            span:nth-of-type(2){
+                padding-left: 48.1px;
+            }
+            span:nth-of-type(3){
+                padding-left: 40.1px;
+            }
+            span:nth-of-type(4){
+                padding-left: 67px;
+            }
+        }
+    }
+}
+
+.content-right{
+    margin-top: 35px;
+    float: right;
+    width: 400px;
+    height: 1000px;
+    // background-color: skyblue;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    .checkBox{
+        label:nth-of-type(1){
+            color: #373A3C;
+            font-size: 14px;
+            margin-top: 29px;
+            margin-left: 33px;
+            font-weight: normal;
+        }
+        #product3{
+            width: 140px;
+            margin-left: 37px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        label:nth-of-type(2){
+            color: #373A3C;
+            font-size: 14px;
+            margin-top: 30.5px;
+            margin-left: 33px;
+            font-weight: normal;
+        }
+        #manufactor{
+            width: 140px;
+            margin-left: 9px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        label:nth-of-type(3){
+            color: #373A3C;
+            font-size: 14px;
+            margin-top: 24px;
+            margin-left: 20.5px;
+            font-weight: normal;
+        }
+        #specifications2{
+            width: 46.6px;
+            margin-left: 32px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        #spe1{
+            width: 46.6px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+        #spe2{
+            width: 46.6px;
+            margin-left: 2px;
+            border:none;
+            border-bottom: 1px solid #DDDDDD;
+            &::-webkit-input-placeholder{
+                color: #818A91;
+                font-size: 10px;
+            }
+        }
+
+        .checkBox-btm{
+            margin-top: 120.5px;
+            .btm-title{
+                border: 1px solid #DDDDDD;
+                line-height: 40px;
+                background-color: #ECEEEF;
+                span{
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #55595C;
+                }
+                span:nth-of-type(1){
+                    padding-left: 4px;
+                }
+                span:nth-of-type(2){
+                    padding-left: 12px;
+                }
+                span:nth-of-type(3){
+                    padding-left: 32px;
+                }
+            }
+            .btm-content{
+                font-size: 14px;
+                border-bottom: 1px solid #DDDDDD;
+                color:#373A3C;
+                line-height: 52px;
+                span:nth-of-type(1){
+                    padding-left: 4px;
+                }
+                span:nth-of-type(2){
+                    padding-left: 31px;
+                }
+                span:nth-of-type(3){
+                    padding-left: 48px;
+                }
+                span:nth-of-type(4){
+                    padding-left: 67px;
+                }
+            }
+        }
+    }
+}

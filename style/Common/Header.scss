@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 0;
+  .headerContainer{
+    height:60px;
+    width:1280px;
+    margin: 0 auto;
+    background:linear-gradient(to right,#1C7CD5,#D9534F);
+    .headerFontDiv{
+      float: left;
+      padding-top:15px;
+      margin-left:22px;
+      .headerSpan{
+        font-size: 20px;
+        font-family: 'PingFang SC',sans-serif;
+        color: #ffffff;
+      }
+    }
+    .headerLogin{
+      float:right;
+      width:250px;
+      height:27px;
+      padding-top:15px;
+      margin-right:24px;
+      .headerMargin{
+        margin-right:24px ;
+      }
+      .headerSpan{
+        font-size: 20px;
+        font-family: 'PingFang SC',sans-serif;
+        color: #ffffff;
+      }
+    }
+  }
+}
+

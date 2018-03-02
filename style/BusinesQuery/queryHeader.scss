@@ -1,0 +1,43 @@
+.query-title-nav {
+  width: 1086px;
+  height: 49px;
+  margin: 24px auto 0;
+
+  font-size: 16px;
+  color: #1C7CD5;
+  border-radius: 2px;
+
+  background-color: #DDDDDD;
+  .left-title {
+    float: left;
+
+    height: 49px;
+    line-height: 49px;
+    span {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  .right-title {
+    float: right;
+    height: 49px;
+
+    font-size: 16px;
+    ul {
+      margin: 0;
+      padding: 0;
+      height: 49px;
+      list-style: none;
+      li {
+        float: left;
+
+        height: 49px;
+        margin: 0 10px 0 10px;
+        line-height: 49px;
+      }
+    }
+    a {
+      color: #1C7CD5;
+    }
+  }
+}

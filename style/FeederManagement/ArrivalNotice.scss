@@ -1,0 +1,113 @@
+.floatL{
+  float: left;
+}
+.floatR{
+  float: right;
+}
+body{
+  padding:0;
+  margin: 0;
+  .mainContainer{
+    width:1280px;
+    margin: 0 auto;
+    .rightMenu{
+      width:1163px;
+      .containTop{
+        width: 1086px;
+        margin:24px auto 0 auto;
+        height:49px;
+        background-color: #DDDDDD;
+        border-radius: 3px;
+        .topTitle{
+          height:49px;
+          line-height: 49px;
+          .titleFont{
+            margin:0 18px;
+            font-size: 16px;
+            font-family: "Helvetica Neue", sans-serif;
+            color:#1C7CD5;
+            cursor: pointer;
+          }
+        }
+      }
+      .containMiddle{
+        width: 1018px;
+        margin: 0 auto;
+        .arrivalTitle{
+          width: 100%;
+          margin: 34px auto;
+          text-align: center;
+          font-size: 20px;
+          font-family: "Helvetica Neue", sans-serif;
+          font-weight: bold;
+        }
+        .containForm{
+          position:relative;
+          width: 100%;
+          flex-direction: row;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+          .formDiv{
+            width:215px;
+            height:20px;
+            line-height: 20px;
+            display: inline-block;
+            margin: 20px 20px 20px 3px;
+            .formName{
+              font-family: "Helvetica Neue", sans-serif;
+              font-size: 14px;
+              display: inline-block;
+              width: 56px;
+            }
+            .formInput{
+              margin-left: 9px;
+              width:150px;
+              font-family: "Helvetica Neue", sans-serif;
+              font-size: 10px;
+              display: inline-block;
+              border:none;
+              border-bottom: 1px solid #DDDDDD;
+            }
+            .formD3{
+              margin-left: 6px;
+              width: 150px;
+              display: inline-block;
+              ._formInput{
+                margin-left: 3px;
+                width:47px;
+                font-family: "Helvetica Neue", sans-serif;
+                font-size: 5px;
+                display: inline-block;
+                border:none;
+                border-bottom: 1px solid #DDDDDD;
+              }
+            }
+          }
+          .chooseAll{
+            position: absolute;
+            width:100px;
+            height: 40px;
+            line-height: 40px;
+            //background-color: #000000;
+            bottom:10px;
+            right: 200px;
+          }
+        }
+        .containList{
+          margin-top: 32px;
+          width: 100%;
+          height:57px;
+          line-height: 57px;
+          background-color: #ECEEEF;
+          flex-direction: row;
+          justify-content: space-around;
+          .listDiv{
+            width: 84px;
+            display: inline-block;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

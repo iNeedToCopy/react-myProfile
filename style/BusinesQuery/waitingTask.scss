@@ -1,0 +1,71 @@
+.waiting-task {
+  width: 1280px;
+  height: 100%;
+
+  margin: 0 auto;
+  header {
+    width: 1280px;
+    height: 60px;
+
+    background-color: #1C7CD5;
+  }
+  .left-bar {
+    float: left;
+    width: 133px;
+    height: 1685px;
+
+    border-right: 1px solid #c1c1c1;
+  }
+  .query-cont {
+    width: 1147px;
+    overflow: hidden;
+    .query-header {
+      width: 100%;
+      margin: 37px 0 42px 0;
+      text-align: center;
+      h5 {
+        margin: 0;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 6px;
+        color: #373A3C;
+      }
+    }
+    .tasks {
+      width: 100%;
+      margin-bottom: 42px;
+      ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+
+        width: 1009px;
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+        li {
+          height: 25px;
+
+          line-height: 25px;
+          font-size: 14px;
+          color: #1C7CD5;
+        }
+      }
+    }
+    .info {
+      width: 1009px;
+      margin: 0 auto;
+      thead {
+        font-size: 12px;
+        background-color: #ECEEEF;
+        tr {
+          height: 57px;
+          td {
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}

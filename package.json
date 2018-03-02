@@ -1,0 +1,49 @@
+{
+  "name": "mg-yc",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "set NODE_ENV=local && set DEBUG=false && node server.js",
+    "watch": "nodemon server.js"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-polyfill": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-0": "*",
+    "css-loader": "*",
+    "cssnext-loader": "*",
+    "express": "*",
+    "file-loader": "*",
+    "html-webpack-plugin": "*",
+    "node-sass": "*",
+    "path": "*",
+    "react-hot-loader": "*",
+    "resolve-url-loader": "*",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "url-loader": "*",
+    "webpack": "*",
+    "webpack-dev-middleware": "*",
+    "webpack-dev-server": "*",
+    "webpack-hot-middleware": "*"
+  },
+  "dependencies": {
+    "babel-core": "*",
+    "jquery": "*",
+    "react": "*",
+    "react-cookie": "*",
+    "react-dom": "*",
+    "react-redux": "*",
+    "react-router": "^3.0.2",
+    "react-router-redux": "*",
+    "redux": "*",
+    "redux-actions": "*",
+    "redux-devtools": "*",
+    "redux-devtools-dock-monitor": "*",
+    "redux-devtools-log-monitor": "*",
+    "redux-logger": "*",
+    "redux-thunk": "*"
+  }
+}

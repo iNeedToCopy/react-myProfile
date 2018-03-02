@@ -1,0 +1,33 @@
+.login-container {
+     .login-head{
+       width:100%;
+       min-width: 1200px;
+       height: 60px;
+       background-color: #56C0E0;
+     }
+  .login-type {
+    width: 1200px;
+    display: block;
+    margin: 0 auto;
+    .login-title {
+      width: 500px;
+      font-family: "Helvetica Neue";
+      font-size: 40px;
+      margin: 0 auto;
+      display: block;
+    }
+    .login-change{
+      width: 500px;
+      margin: 0 auto;
+      margin-top: 42px;
+      font-family: "Helvetica Neue";
+      font-size: 36px;
+      display: block;
+      .login-changetype{
+        width: 499px;
+        display: inline-block;
+        margin-top: 66px;
+      }
+    }
+  }
+}

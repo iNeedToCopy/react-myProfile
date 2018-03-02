@@ -1,0 +1,45 @@
+.hide{
+  display: none;
+}
+.menuContainer{
+  width: 117px;
+  margin-top: 15px;
+  padding-left:15px;
+  border-right: 1px solid #C1C1C1;
+  .menuContent{
+    margin-bottom: 9px;
+    overflow: hidden;
+    .menuDiv_1{
+      height:21px;
+      .menuFont_1{
+        font-size:16px;
+        font-family: "Helvetica Neue",sans-serif;
+        color:#95989A;
+        cursor: pointer;
+      }
+    }
+    .menuDiv_2{
+      height:21px;
+      margin-bottom: 23px;
+      margin-top: 15px;
+      display: none;
+      .menuFont_2{
+        font-size:16px;
+        font-family: "Helvetica Neue",sans-serif;
+        color:#1C7CD5;
+        cursor: pointer;
+      }
+    }
+    ._menuDiv_2{
+      height:21px;
+      margin-bottom: 23px;
+      margin-top: 15px;
+      .menuFont_2{
+        font-size:16px;
+        font-family: "Helvetica Neue",sans-serif;
+        color:#1C7CD5;
+        cursor: pointer;
+      }
+    }
+  }
+}

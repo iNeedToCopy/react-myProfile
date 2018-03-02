@@ -1,0 +1,79 @@
+.loginStore-container {
+  .store-head{
+    width:100%;
+    min-width: 1280px;
+    height: 72px;
+    background-color: #5CB85C;
+    span{
+      font-family:"Helvetica Neue";
+      font-size: 24px;
+      margin-left: 32px;
+      padding-top: 20px;
+      height: 37px;
+      display: block;
+      color: #FFFFFF;
+    }
+  }
+  .store-title{
+    display: block;
+    margin: 0 auto;
+    margin-top: 72px;
+    font-family: "Helvetica Neue";
+    font-size: 40px;
+    width: 500px;
+    text-align: center;
+  }
+  .store-login{
+    display: block;
+    margin: 0 auto;
+    margin-top: 72px;
+    width: 600px;
+    text-align: center;
+    input{
+      width: 400px;
+      height: 64px;
+      font-family: "Helvetica Neue";
+      font-size: 24px;
+      border: 1px solid #DDDDDD;
+      padding-left: 16px;
+      border-radius: 4px;
+    }
+    button{
+      margin: 0 auto;
+      width: 120px;
+      height: 48px;
+      font-family: "Helvetica Neue";
+      font-size: 24px;
+      display: block;
+      color: #FFFFFF;
+      background-color: #1C7CD5;
+      border-radius: 4px;
+      text-align: center;
+      border: 1px solid transparent;
+    }
+    .store-change{
+      height: 27px;
+      font-family: "Helvetica Neue";
+      font-size: 20px;
+      display: block;
+      text-align: center;
+      margin-top: 59px;
+      color:#1C7CD5 ;
+    }
+  }
+  .store-foot{
+    height: 100px;
+    margin-top: 168px;
+    text-align: center;
+    span{
+      font-family: "Helvetica Neue";
+      font-size: 20px;
+      color: #818A91;
+    }
+    strong{
+      font-family: "Helvetica Neue";
+      font-size: 24px;
+      color:#1D1D1D;
+    }
+  }
+}

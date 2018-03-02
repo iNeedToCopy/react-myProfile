@@ -1,0 +1,258 @@
+$Size:1px;
+
+.veh-container {
+	width:100%;
+	max-width: 1280px;
+	margin:auto;
+}
+
+/*----------------------------*/
+
+ul,li{padding:0;margin:0;}
+li{list-style: none;float: left}
+a{color:#1C7CD5;text-decoration: none;}
+a:hover{text-decoration: none;}
+a:visited{text-decoration: none;}
+.veh-col-1086{
+	width:1086px;
+	height:49px;
+	background: #DDDDDD;
+	margin-top:24px;
+	line-height: 49px;
+}
+.veh-content{
+	height: 500px;
+	margin-left:147.5px;
+}
+.veh-breadcrumb {
+	font-size: 16px;
+}
+.veh-breadcrumb li:first-child{
+	padding-left:20px;
+}
+.veh-breadcrumb > li + li:before {
+    color: #777777;
+    content: "/ ";
+    padding-left:16px;
+    padding-right:22px;
+    font-size:18px;
+}
+
+.syz-action{
+	width: 560px;
+	float: right;
+	margin-left: 9.5px;
+  li{
+		padding-right:20px;
+	}
+	li:last-child{
+		padding-right: 0px;
+	}
+}
+
+.veh-title{
+	color:#373A3C;
+	font-size: 20px;
+	margin:30px 0 38px 208.5px;
+	font-weight: bold;
+}
+.veh-search{
+  font-size: 18px;
+  height: 24px;
+}
+
+.veh-input {
+  margin-bottom: 32px;
+  float: left;
+  span{
+    text-align-last: justify;
+    width: 66px;
+    display: inline-block;
+  }
+  select{
+    display: inline-block;
+    width: 153.5px;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    margin-right: 26.8px;
+  }
+  input{
+    width: 153.5px;
+    border:none;
+    border-bottom: 1px solid #ccc;
+		margin-right: 26.8px;
+  }
+  input::-webkit-input-placeholder {
+    padding-left: 22px;
+    font-size: 16px;
+  }
+  input:-moz-placeholder {
+    padding-left: 22px;
+    font-size: 16px;
+  }
+  input::-moz-placeholder {
+    padding-left: 22px;
+    font-size: 16px;
+  }
+  input:-ms-input-placeholder {
+    padding-left: 22px;
+    font-size: 16px;
+  }
+}
+.veh-mn-table {
+  font-size: 12px;
+  width: 1084px;
+  border-collapse:collapse;
+  font-family: Helvetica Neue;
+  thead {
+    th{
+      height: 40px;
+      background-color: #ECEEEF;
+      &:nth-child(1){
+        padding-left: 4px;
+        width: 114px;
+      }
+      &:nth-child(2){
+        width: 114px;
+      }
+      &:nth-child(3){
+        width: 188px;
+      }
+      &:nth-child(4){
+        width: 664px;
+      }
+    }
+  }
+  tbody{
+    td{
+			height: 40px;
+      &:nth-child(1){
+        padding-left: 4px;
+      }
+    }
+  }
+}
+/*-------------------------------------*/
+.veh-title-reg{
+	color:#373A3C;
+	font-size: 20px;
+	padding-left: 392.5px;
+	margin-top:30px;
+	margin-bottom: 38px;
+	font-weight: bold;
+}
+.veh-remark{
+	@extend .veh-search;
+	width: 550px;
+	margin-top: -10px;
+	margin-bottom: 48px;
+	float: left;
+	span{
+    text-align-last: justify;
+    width: 66px;
+    display: inline-block;
+  }
+	input{
+    width: 406px;
+    border:none;
+    border-bottom: 1px solid #ccc;
+  }
+}
+.reg-info{
+	font-family: Helvetica Neue;
+	font-size: 14px;
+	float: left;
+	width: 1080px;
+	padding-left: 30px;
+}
+.veh-vr-table{
+	@extend .veh-mn-table;
+	margin-bottom: 48px;
+	thead {
+		th{
+			height: 40px;
+			background-color: #ECEEEF;
+			&:nth-child(1){
+				padding-left: 4px;
+				width: 114px;
+			}
+			&:nth-child(2){
+				width: 114px;
+			}
+			&:nth-child(3){
+				width: 114px;
+			}
+			&:nth-child(4){
+				width:114px;
+			}
+			&:nth-child(5){
+				width: 624px;
+			}
+		}
+	}
+	tbody{
+		td{
+			height: 40px;
+		}
+	}
+}
+.veh-info{
+	@extend .reg-info;
+}
+.veh-info-table{
+	@extend .veh-mn-table;
+	thead {
+		th{
+			height: 40px;
+			background-color: #ECEEEF;
+			&:nth-child(1){
+				padding-left: 4px;
+				width: 114px;
+			}
+			&:nth-child(2){
+				width: 114px;
+			}
+			&:nth-child(3){
+				width: 114px;
+			}
+			&:nth-child(4){
+				width:114px;
+			}
+			&:nth-child(5){
+				width: 114px;
+			}
+			&:nth-child(6){
+				width: 496px;
+			}
+		}
+	}
+}
+.syzz-action{
+	width: 200px;
+	float: right;
+	margin-left: 9.5px;
+  li{
+		padding-right:20px;
+	}
+	li:last-child{
+		padding-right: 0px;
+	}
+}
+.tx{
+	float: left;
+	font-size: 16px;
+	width: 289.5px;
+	margin-left: 314px;
+	span{
+    text-align-last: justify;
+    width: 70px;
+    display: inline-block;
+  }
+	input{
+		background-color: #DDDDDD;
+		width: 60px;
+		height: 21px;
+    border:none;
+    border-bottom: 1px solid black;
+  }
+}

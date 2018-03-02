@@ -1,0 +1,80 @@
+
+:local(.ticketContainer){
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0 auto;
+  width: 1280px;
+  padding: 0;
+  .title{
+    height: 60px;
+    background-color: #D9534F;
+    width: 1280px;
+    display: flex;
+    justify-content:space-between;
+    span{
+      display: block;
+      height: 60px;
+      line-height: 60px;
+      font-size: 24px ;
+      color: #fff;
+    }
+    .company{
+      margin-left: 24px;
+    }
+    .autoPay{
+      margin-right: 36px;
+    }
+  }
+  .middle-container{
+    width: 1280px;
+    .subTitle{
+      margin: 104px auto 0 auto;
+      font:60px Helvetica Neue;
+      font-weight: bold;
+      text-align: center;
+    }
+    .small-container{
+      width: 560px;
+      position:relative;
+      margin: 54px auto 0 auto;
+      .city{
+        display: inline-block;
+        width: 180px;
+        height: 60px;
+        line-height: 60px;
+        font-size:32px;
+        text-align: center;
+        background-color: rgba(216, 216, 216, 0.45);
+        border-radius: 1px;
+        margin:0 auto 0 auto;
+        box-sizing: border-box;
+      }
+      .car-number{
+        height:60px;
+        width: 360px;
+        font-size: 34px;
+        letter-spacing: 25px;
+        padding-left: 20px;
+        vertical-align:top;
+        display: inline-block;
+        box-sizing: border-box;
+      }
+    }
+    .change-button{
+      width: 240px;
+      height: 80px;
+      margin: 130px auto 0 auto;
+      font-size: 36px;
+      color: #fff;
+      background-color: #4785ff;
+      border-radius: 4px;
+      border:none;
+      display: block;
+      cursor:pointer
+    }
+    .autoPay{
+      width: 360px !important;
+    }
+  }
+}
+
+

@@ -1,0 +1,28 @@
+.navContainer{
+  width: 1163px;
+  .containTop{
+    width: 1086px;
+    margin:24px auto 0 auto;
+    height:49px;
+    background-color: #DDDDDD;
+    border-radius: 3px;
+    .topTitle{
+      height:49px;
+      line-height: 49px;
+      .radioDiv{
+        display: inline-block;
+        ._titleFont{
+          margin:0 10px;
+          font-size: 16px;
+        }
+      }
+      .titleFont{
+        margin:0 18px;
+        font-size: 16px;
+        font-family: "Helvetica Neue", sans-serif;
+        color:#1C7CD5;
+        cursor: pointer;
+      }
+    }
+  }
+}

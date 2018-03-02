@@ -1,0 +1,282 @@
+.body{
+  margin: 0;
+  padding: 0;
+}
+.container-page{
+  width:1280px;
+  margin: 0 auto;
+}
+.companyName{
+  width:1280px;
+  height: 60px;
+}
+.sideBar{
+  width:133px;
+  height: 600px;
+  float: left;
+}
+@mixin FontFloat{
+  font: 18px Helvetica Neue;
+  float: left;
+}
+@mixin borderUnStyle{
+  border: 0.3px solid #DDDDDD;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+}
+.main-container{
+  margin: 24px 0 0 13px;
+  float: left;
+  width: 1086px;
+  .main-title{
+    width: 1086px;
+    height: 49px;
+    background-color: #DDD;
+    border-radius: 3px;
+    border:1px solid #E7CECD;
+    float: left;
+    padding:0 16px 0 20px;
+    box-sizing: border-box;
+    .title-p{
+      font: 16px Helvetica Neue;
+      color: #1C7CD5;
+      float: left;
+      margin: 14px 0 0 0;
+    }
+    .title-xie{
+      font: 16px Helvetica Neue;
+      color: #777777;
+      float: left;
+      margin: 15px 18px 0 16px;
+    }
+    .title-bar{
+      float: right;
+      font: 16px Helvetica Neue;
+      color: #1C7CD5;
+      margin: 14px 0 0 0;
+      .title-bar-item{
+        float: left;
+        margin-left: 20px;
+      }
+    }
+  }
+  .owner-name{
+    height:86.5px;
+    width: 664px;
+    .main-h5{
+      margin-top: 83px;
+      text-align: center;
+      font:20px Helvetica Neue;
+      font-weight: bold;
+    }
+    .form-main{
+      margin: 34px 0 0 0;
+      .form-name{
+        @include FontFloat;
+        font-size: 16px;
+        margin: 0 0 0 2px;
+      }
+      input{
+        @include borderUnStyle;
+        font: 16px Helvetica Neue;
+        margin-left: 16px;
+        width:267px;
+      }
+
+      .form-radio{
+        width: 15px;
+      }
+      .form-number-title{
+        @include FontFloat;
+        margin: 0 0 0 10px;
+      }
+      .form-number{
+        @include FontFloat
+      }
+    }
+  }
+  .main-content{
+    margin: 22px 0 0 2px;
+    width: 664px;
+    height: 440px;
+    .form-border{
+      border: 0.3px solid rgb(221,221,221);
+      border-radius: 4px;
+      padding: 24px 0 0 2px;
+      label{
+        position: relative;
+        .inputLg{
+          width: 365px;
+        }
+        .select-small{
+          width: 120px;
+        }
+        .authorize-key{
+          font: 14px Helvetica Neue;
+          float: left;
+          width: 56px;
+          margin-bottom: 17px;
+        }
+        input,select{
+          font:10px Helvetica Neue;
+          @include borderUnStyle;
+          width: 140px;
+          margin: 0 0 0 8.5px;
+        }
+        span{
+          color: #1C7CD5;
+          font-size:10px;
+        }
+        i{
+          position: absolute;
+          top:2px;
+          left: 180px;
+          width:10px;
+          font-size: 10px;
+          font-style: normal;
+          color: #818A91;
+        }
+        .pad{
+          position: absolute;
+          left: 195px;
+        }
+        .margin-left{
+          margin-left: 21px;
+        }
+        .beiZhu{
+          font:10px Helvetica Neue;
+          @include borderUnStyle;
+          width: 590px;
+        }
+      }
+
+      .OutBound{
+        width:662px;
+        height: 70px;
+        margin: 0 0 16px -2px;
+        background-color: #ECEEEF;
+        .outdoor-one{
+          width:200px;
+          float: left;
+          margin: 25px 0 0 0;
+          label{
+            font: 16px Helvetica Neue;
+            input{
+              width: 15px;
+              height: 15px;
+              margin-left: 15px;
+            }
+          }
+        }
+        .outdoor-two{
+          width: 400px;
+          height: 70px;
+          margin-left: 264px;
+          display: flex;
+          flex-wrap: wrap;
+          p{
+            font: 16px Helvetica Neue;
+          }
+          .fTop{
+            display: block;
+            height: 21px;
+            margin-top: 10px;
+            float: left;
+          }
+          .fLeft{
+            margin: 10px 0 0 40px;
+          }
+          .width{
+            width: 100px;
+          }
+        }
+      }
+    }
+  }
+  .list{
+    margin: 55px 0 0 0;
+    width:664px;
+    height: 440px;
+    overflow: hidden;
+    .table{
+      table-layout: fixed;
+      word-break: break-all;
+      padding: 2px !important;
+    }
+    .table-font{
+      font: 12px  Helvetica Neue;
+      border: 1px solid  #DDDDDD;
+      .table-head{
+        height: 40px;
+        background-color: #ECEEEF;
+        .table-th{
+          padding: 2px !important;
+          vertical-align:middle;
+        }
+      }
+      .table-item{
+        height: 40px;
+      }
+    }
+  }
+  .rightBar{
+    width:400px;
+    height: 830px;
+    float: right;
+    margin: 35px 0 0 0;
+    .right-bar-one{
+      height: 150px;
+      width: 400px;
+      .right-bar-one-title{
+        display: block;
+        width: 400px;
+        margin-bottom: 0;
+        height: 50px;
+        padding: 13px 0 0 21px;
+        background-color: #ECEEEF;
+        font:17px Helvetica Neue;
+        color: #000;
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+      }
+      .right-bar-one-content{
+        height: 100px;
+        border: 0.3px solid rgb(221,221,221);
+        padding: 5px 0 0 15px;
+          .p1{
+            float: left;
+            margin-top: 15px;
+            font-size: 16px;
+          }
+          .mLeft{
+            margin: 15px 0 0 108px;
+          }
+        input{
+          @include borderUnStyle;
+          margin: 15px 0 0 -45px;
+          width: 320px;
+        }
+      }
+    }
+    .right-bar-two{
+      overflow: hidden;
+      height: 680px;
+      .table-h{
+        height: 40px;
+        background-color: #ECEEEF;
+      }
+      .table-word{
+        border: 1px solid  #DDDDDD;
+        font-size:14px;
+        .tdWidth{
+          width: 135px;
+        }
+        .table-item{
+          height: 40px;
+        }
+      }
+
+    }
+  }
+}
